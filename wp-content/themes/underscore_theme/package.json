@@ -1,0 +1,39 @@
+{
+    "name": "starter",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev-server": "encore dev-server",
+        "dev": "encore dev",
+        "watch": "encore dev --watch",
+        "build": "encore production --progress"
+    },
+    "devDependencies": {
+        "@symfony/webpack-encore": "^0.28.0",
+        "autoprefixer": "^9.6.1",
+        "bootstrap": "^4.4.1",
+        "jquery": "^3.4.1",
+        "node-sass": "^4.12.0",
+        "popper.js": "^1.16.0",
+        "postcss-loader": "^3.0.0",
+        "sass-loader": "^7.0.1"
+    },
+    "browserslist": [
+        "last 1 major version",
+        ">= 1%",
+        "Chrome >= 45",
+        "Firefox >= 38",
+        "Edge >= 12",
+        "Explorer >= 10",
+        "iOS >= 9",
+        "Safari >= 9",
+        "Android >= 4.4",
+        "Opera >= 30"
+    ],
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.12.0",
+        "glob-all": "^3.1.0",
+        "purgecss-webpack-plugin": "^1.6.0"
+    }
+}

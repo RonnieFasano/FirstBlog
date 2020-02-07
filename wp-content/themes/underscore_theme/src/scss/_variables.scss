@@ -1,0 +1,67 @@
+$primary: #2c3360;
+$secondary: #191e25;
+$tertiary: #FFF;
+$black: $secondary;
+$white: $tertiary;
+$accent: #eb7e39;
+$gray: #dddddf;
+$darkpurple: #1d2349;
+
+$enable-responsive-font-sizes: true;
+$font-size-base: 1rem;
+
+$headings-font-family: 'Butler', arial, sans-serif;
+$font-family-sans-serif: Arial, Helvetica, sans-serif;
+$theme-colors: (
+    
+    'primary': $primary,
+    'secondary': $secondary,
+    'tertiary': $tertiary,
+    'black': $black,
+    'white': $white,
+    'accent': $accent,
+    'gray': $gray,
+    'darkpurple': $darkpurple,
+
+);
+
+$spacer: 1rem !default;
+$spacers: () !default;
+
+$spacers: map-merge(
+    (
+        0: 0,
+        1: (
+            $spacer * 0.25
+        ),
+        2: (
+            $spacer * 0.5
+        ),
+        3: $spacer,
+        4: (
+            $spacer * 1.5
+        ),
+        5: (
+            $spacer * 3
+        ),
+        6: (
+            $spacer * 4
+        ),
+        7: (
+            $spacer * 5
+        ),
+        8: (
+            $spacer * 6.25
+        ),
+        9: (
+            $spacer * 7.5
+        ),
+        10: (
+            $spacer * 9.375
+        ),
+        20: (
+            $spacer * 20
+        )
+    ),
+    $spacers
+);

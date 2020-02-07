@@ -1,0 +1,77 @@
+.h-55 {
+    height: 55% !important; }
+
+
+
+    .bg-swirl {
+        background-image: url("../img/Group25.14f70a5f.png"); }
+
+ .logo {
+    background-image: url("../img/BroadwayRealEstateWhiteonBlueLOGO.svg");
+     height: 43px;
+     width: 174px;
+     @include media-breakpoint-up(md) {
+         height: 65px;
+         width: 263px;
+            }
+      background-repeat: no-repeat;
+     background-position: bottom;
+        }
+
+    .jumbotron {
+        background-image: url("../img/Group25.14f70a5f.png");
+        border-radius: 0.3rem; }
+        @media (min-width: 576px) {
+          .jumbotron {
+            padding: 4rem 2rem; } }
+
+
+
+            .hero {
+                height:75vh;
+            
+                @include media-breakpoint-up(lg) {
+                 height: 65vh;
+                 
+                }
+            
+                background-image: url("../img/hero.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .card-custom {
+                min-width: 0;
+                width: 18rem;
+                word-wrap: break-word; }
+
+
+
+        .card{
+            width: 18rem;
+        }
+
+        .safeco{
+            height:130px; 
+            width:180px;
+        }
+
+        .realist{
+            height:130px; 
+            width:180px;
+        }
+
+        .asana{
+            height:80px; 
+            width:170px;
+        }
+
+        .robin{
+            height:120px; 
+            width:180px;
+        }
+
+        .priority{
+            height:120px; 
+            width:180px;
+        }
